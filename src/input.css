@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradient {
+  background: -webkit-linear-gradient(
+    360deg,
+    #a1fcf8,
+    #49cdc6,
+    #848ef4,
+    #e364f3
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header-logo {
+  width: 150px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.footer-logo {
+  width: 250px;
+  margin-bottom: 10px;
+}
+
+.custom-icon {
+  margin-right: 20px;
+}
+
+.custom-info {
+  margin-left: -90px;
+}
+
+.footer-section {
+  margin-bottom: 20px;
+}
