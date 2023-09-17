@@ -32,24 +32,33 @@
   margin-bottom: 40px;
 }
 
-.poppins {
-  font-family: "Poppins", sans-serif;
-}
-
 h1 {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
 }
 p {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: small;
 }
 a {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: medium;
 }
 .border-custom {
   border-color: #eb5670;
+}
+
+@media screen and (max-width: 767px) {
+  /* Styles for mobile phones */
+  .custom-width {
+    width: 22rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* Styles for tablets and computers */
+  .custom-width {
+    width: 45rem;
+  }
 }

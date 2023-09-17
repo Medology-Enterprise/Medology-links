@@ -66,10 +66,6 @@ body {
   /* 2 */
   margin: 10px 20px;
 }
-body,
-html {
-  overflow-y: scroll;
-}
 
 /*
 1. Add the correct height in Firefox.
