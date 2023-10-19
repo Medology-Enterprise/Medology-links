@@ -50,15 +50,15 @@ a {
   border-color: #eb5670;
 }
 
-@media screen and (max-width: 767px) {
+/*@media screen and (max-width: 768px) {
   /* Styles for mobile phones */
-  .custom-width {
-    width: 95vw;
+/*.custom-width {
+/*    width: 95vw;
   }
 }
 @media screen and (min-width: 768px) {
   /* Styles for tablets and computers */
-  .custom-width {
+/*.custom-width {
     width: 60vw;
   }
-}
+}*/
